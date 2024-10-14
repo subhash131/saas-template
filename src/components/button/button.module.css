@@ -1,0 +1,30 @@
+.button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: var(--color-black);
+  inset: 2px;
+  border-radius: 45px;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+  border: 2px solid #0f0e0e;
+}
+
+@property --r {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.button {
+  background: conic-gradient(from var(--r), #000 0%, #eee 10%, #000 20%);
+  animation: rotating 3s linear infinite;
+}
+@keyframes rotating {
+  0% {
+    --r: 0deg;
+  }
+  100% {
+    --r: 360deg;
+  }
+}
