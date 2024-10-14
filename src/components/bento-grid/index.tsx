@@ -1,11 +1,16 @@
 import React from "react";
 import style from "./bento.module.css";
+import Rocket from "./rocket";
 
 const BentoGrid = () => {
   return (
     <div className="w-screen h-screen flex items-center justify-center">
       <div className={`${style.parent} w-[80%] h-[80%] gap-3`}>
-        <div className={`${style.div1} border rounded-2xl border-light`}> </div>
+        <div
+          className={`${style.div1} border rounded-2xl border-light overflow-hidden`}
+        >
+          <Rocket />
+        </div>
         <div className={`${style.div2} border rounded-2xl border-light`}> </div>
         <div className={`${style.div3} border rounded-2xl border-light `}>
           {" "}
