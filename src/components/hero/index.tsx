@@ -59,11 +59,11 @@ const Hero = () => {
         <div className="w-[40rem] h-[18rem] relative flex flex-col gap-16 -mt-32 text-center max-md:w-[20rem]">
           <div className="flex flex-col gap-4 max-md:gap-10 items-center ">
             <p className="text-6xl leading-tight max-md:text-3xl">
-              Join the future of mobile development
+              Join the future of app development
             </p>
             <p className="text-xs w-96 leading-4 max-md:w-72">
               Emerge Tools is a suite of revolutionary products designed to
-              supercharge mobile apps and the teams that build them
+              supercharge apps and the teams that build them
             </p>
           </div>
           <Button
