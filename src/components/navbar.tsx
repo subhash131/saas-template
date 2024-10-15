@@ -12,7 +12,7 @@ const items = [
 
 const Navbar = () => {
   return (
-    <div className="w-full h-20 flex items-center px-8 justify-between backdrop-blur-sn bg-black text-sm fixed top-0 z-50">
+    <div className="w-full h-16 flex items-center px-8 justify-between backdrop-blur-sn bg-black text-sm fixed top-0 z-50">
       <div className="py-2 border border-[#616160] relative px-6 bg-black cursor-pointer select-none">
         Subhash
       </div>

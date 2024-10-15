@@ -5,7 +5,7 @@ import { Sparkle } from "lucide-react";
 
 const BentoGrid = () => {
   return (
-    <div className="w-screen h-screen flex items-center justify-center">
+    <div className="w-screen h-screen flex items-center justify-center backdrop-blur-lg sticky top-0">
       <div className={`${style.parent} w-[80%] h-[80%] gap-3`}>
         <div
           className={`${style.div1} border rounded-2xl border-light overflow-hidden hover:scale-95 transition-transform`}

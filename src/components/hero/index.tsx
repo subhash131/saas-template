@@ -12,7 +12,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="pt-20 w-screen h-screen relative overflow-hidden ">
+    <div className="pt-20 w-screen h-screen overflow-hidden sticky top-0">
       <div className="w-full h-full justify-center flex absolute -z-10 after:w-full after:h-full after:-z-[9] after:absolute after:bg-[black] after:blur-3xl">
         <Image
           src="/assets/mesh.svg"
