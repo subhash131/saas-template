@@ -3,7 +3,7 @@ import React from "react";
 
 const VideoController = () => {
   return (
-    <div className="w-[70rem] h-[80%] bg-[#171719] overflow-hidden shrink-0 flex items-center justify-between rounded-3xl">
+    <div className="w-[60rem] h-[70%] bg-[#171719] overflow-hidden shrink-0 flex items-center justify-between rounded-3xl relative">
       <div className="w-[30%] h-full flex flex-col">
         <div className="size-full flex items-center justify-center relative">
           <div className="absolute p-2 rounded-md bg-[#9D9D9F] h-[60%] flex flex-col justify-between items-center shadow-lg">
