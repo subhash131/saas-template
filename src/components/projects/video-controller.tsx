@@ -1,5 +1,7 @@
+"use client";
 import { Play } from "lucide-react";
 import React from "react";
+import ReactPlayer from "react-player";
 
 const VideoController = () => {
   return (
@@ -37,7 +39,12 @@ const VideoController = () => {
         </div>
       </div>
       <div className="size-full p-2">
-        <div className="size-full rounded-xl bg-[#252527]"></div>
+        <div className="size-full rounded-xl bg-[#252527] overflow-hidden border-2 border-[#383838]">
+          <ReactPlayer
+            url="https://youtu.be/Ia2UNzM-woI?si=BWFYJThGRW_hnove"
+            controls
+          />
+        </div>
       </div>
       <div className="w-[30%] h-full flex flex-col items-center justify-center">
         <div className="size-full flex items-center justify-center -rotate-45">
