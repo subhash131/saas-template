@@ -40,7 +40,10 @@ const Navbar = () => {
           })}
         </ul>
 
-        <Button className="active:scale-95 transition-transform">
+        <Button
+          className="active:scale-95 transition-transform"
+          href="mailto:subhashnayak131@gmail.com"
+        >
           <span className="flex items-center justify-center gap-2">
             Mail
             <Mail className="inline" size={18} />

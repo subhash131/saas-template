@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Button from "@/components/button";
@@ -66,12 +67,22 @@ const Hero = () => {
               expertise.
             </p>
           </div>
-          <Button
-            className="px-10 pointer-events-auto text-base active:scale-105 transition-transform"
-            fontSize="text-base"
+          <div
+            onClick={() => {
+              scrollTo({
+                behavior: "smooth",
+                top: innerHeight,
+              });
+            }}
           >
-            Hire me
-          </Button>
+            <Button
+              className="px-10 text-base active:scale-105 transition-transform pointer-events-none"
+              fontSize="text-base"
+              href="#"
+            >
+              About me
+            </Button>
+          </div>
         </div>
         <div
           className={` overflow-hidden relative w-[calc(100px*5)] max-md:w-[calc(50px*5)] before:bg-gradient-linear-to-r before:h-full before:w-[15%] before:z-10 before:absolute before:-right-4 before:top-0 after:absolute after:w-[15%] after:h-full after:bg-gradient-linear-to-l after:z-10 after:top-0 after:-left-4 whitespace-nowrap flex items-center h-5 ${styles.slide_wrap}`}

@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import VideoController from "./video-controller";
-import Caset from "./caset";
 import Carousel from "./carousel";
 
 const projects = [

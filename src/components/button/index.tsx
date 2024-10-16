@@ -5,17 +5,14 @@ import Link from "next/link";
 
 type ButtonProps = {
   children: React.ReactNode;
-  onClick?: () => void;
+  href: string;
   className?: string;
   fontSize?: string;
 };
 
-const Button = ({ children, className, fontSize }: ButtonProps) => {
+const Button = ({ children, className, fontSize, href }: ButtonProps) => {
   return (
-    <Link
-      className="relative place-content-center grid "
-      href="mailto:subhashnayak131@gmail.com"
-    >
+    <Link className="relative place-content-center grid " href={href}>
       <div
         className={`z-10 absolute left-[2px] top-[2px]  w-[calc(100%-4px)] h-[calc(100%-4px)] grid place-content-center rounded-3xl pointer-events-none text-xs ${fontSize}`}
       >

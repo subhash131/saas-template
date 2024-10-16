@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Caset from "./caset";
+import styles from "./carousel.module.css";
 
 export default function Carousel() {
   return (
@@ -13,8 +14,8 @@ export default function Carousel() {
         slidesToShow={3}
         focusOnSelect
         centerMode
-        draggable
-        waitForAnimate
+        draggable={true}
+        waitForAnimate={true}
       >
         <Caset id="1234" index={1} isActive={false} />
         <Caset id="1235" index={2} isActive={false} />
