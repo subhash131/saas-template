@@ -37,3 +37,15 @@ body {
 *::-webkit-scrollbar {
   display: none;
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-slide {
+  transition: 1s;
+}
+
+.slick-current {
+  padding-top: 200px;
+}

@@ -67,7 +67,7 @@ const Hero = () => {
             </p>
           </div>
           <Button
-            className="px-10 pointer-events-auto text-base"
+            className="px-10 pointer-events-auto text-base active:scale-105 transition-transform"
             fontSize="text-base"
           >
             Get Started
