@@ -9,12 +9,12 @@ export default function Carousel() {
   return (
     <div className="w-screen px-20 overflow-hidden">
       <Slider
-        speed={500}
+        speed={1000}
         slidesToShow={3}
         focusOnSelect
         centerMode
         draggable
-        centerPadding="100px"
+        waitForAnimate
       >
         <Caset id="1234" index={1} isActive={false} />
         <Caset id="1235" index={2} isActive={false} />

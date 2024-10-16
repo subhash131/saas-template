@@ -73,7 +73,7 @@ const Projects = () => {
 
       <div className="size-full flex items-center justify-center">
         <div className="h-[70%] flex  items-start mt-2 justify-center absolute">
-          <div className="h-6 w-80 absolute z-10 -ml-12 -mt-6 flex items-center justify-between">
+          <div className="h-6 w-96 absolute z-10 -ml-12 -mt-6 flex items-center justify-between">
             <div className="h-full w-6 bg-[#171719] rounded-tl"></div>
             <div className="h-full w-6 bg-[#171719] rounded-tr"></div>
           </div>
