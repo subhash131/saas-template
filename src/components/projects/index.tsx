@@ -13,7 +13,7 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    name: "Pacman + Web3",
+    name: "Pacman | Ethereum",
     link: "https://youtu.be/wSvtOkk4b6c",
     id: "project-1",
     color: "bg-[#533FF9]",
@@ -35,14 +35,14 @@ const projects: Project[] = [
   },
 
   {
-    name: "Winu",
+    name: "Winu | Solana",
     link: "https://youtu.be/Ia2UNzM-woI",
     id: "project-4",
     color: "bg-[#b01d24]",
     innerColor: "bg-[#e64949]",
   },
   {
-    name: "BetX Realtime Game",
+    name: "BetX | Solana",
     link: "https://youtu.be/eTA7FMQnP_o",
     id: "project-5",
     color: "bg-[#4C61DE]",

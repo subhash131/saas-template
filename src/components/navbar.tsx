@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Button from "@/components/button";
-import { Mail } from "lucide-react";
+import { FileUser, Mail } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -27,8 +27,9 @@ const Navbar = () => {
             <Link
               href="https://docs.google.com/document/d/1_36f9TZfEVI1OS6v1pF6UbjwokXCGid0DQEIG3Loxis/edit?usp=sharing"
               target="_blank"
+              className="flex gap-2 items-center justify-center"
             >
-              Resume
+              <FileUser size={14} /> Resume
             </Link>
           </li>
         </ul>
