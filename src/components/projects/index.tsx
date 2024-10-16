@@ -7,7 +7,8 @@ export type Project = {
   name: string;
   link: string;
   id: string;
-  isActive: boolean;
+  color: string;
+  innerColor: string;
 };
 
 const projects: Project[] = [
@@ -15,38 +16,44 @@ const projects: Project[] = [
     name: "Pacman + Web3",
     link: "https://youtu.be/wSvtOkk4b6c",
     id: "project-1",
-    isActive: false,
+    color: "bg-[#533FF9]",
+    innerColor: "bg-[#9497FB]",
   },
   {
     name: "Realtime Editor",
     link: "https://youtu.be/yPLCGKZPh-0",
     id: "project-2",
-    isActive: false,
+    color: "bg-[#E06E1A]",
+    innerColor: "bg-[#fc9758]",
   },
   {
     name: "Miro Clone",
     link: "https://youtu.be/gKDITYKFtcE",
     id: "project-3",
-    isActive: false,
+    color: "bg-[#4093FF]",
+    innerColor: "bg-[#4861FF]",
   },
 
   {
     name: "Winu",
     link: "https://youtu.be/Ia2UNzM-woI",
     id: "project-4",
-    isActive: false,
+    color: "bg-[#b01d24]",
+    innerColor: "bg-[#e64949]",
   },
   {
     name: "BetX Realtime Game",
     link: "https://youtu.be/eTA7FMQnP_o",
     id: "project-5",
-    isActive: false,
+    color: "bg-[#4C61DE]",
+    innerColor: "bg-[#9497FB]",
   },
   {
     name: "WhatsApp Clone",
     link: "https://youtu.be/zf1mxFm1PeY",
     id: "project-3",
-    isActive: false,
+    color: "bg-[#007D41]",
+    innerColor: "bg-[#005D41]",
   },
 ];
 

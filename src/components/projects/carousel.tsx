@@ -17,8 +17,15 @@ export default function Carousel({ data }: { data: Project[] }) {
         draggable={true}
         waitForAnimate={true}
       >
-        {data.map(({ id, name }, idx) => (
-          <Caset id={id} index={idx} name={name} />
+        {data.map(({ id, name, color, innerColor, link }, idx) => (
+          <Caset
+            id={id}
+            index={idx}
+            name={name}
+            color={color}
+            innerColor={innerColor}
+            link={link}
+          />
         ))}
       </Slider>
     </div>
