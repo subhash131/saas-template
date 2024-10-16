@@ -5,9 +5,9 @@ import styles from "./hero.module.css";
 import {
   BarChart3,
   GitCompareArrows,
+  LayoutPanelTop,
   Rocket,
   Scaling,
-  Skull,
 } from "lucide-react";
 
 const Hero = () => {
@@ -56,21 +56,21 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full h-full gap-24 flex justify-center flex-col items-center absolute z-30 ">
-        <div className="w-[40rem] h-[18rem] relative flex flex-col gap-16 -mt-32 text-center max-md:w-[20rem]">
+        <div className="w-[40rem] h-[18rem] relative flex flex-col gap-16 text-center max-md:w-[20rem]">
           <div className="flex flex-col gap-4 max-md:gap-10 items-center ">
-            <p className="text-6xl leading-tight max-md:text-3xl">
-              Join the future of app development
+            <p className="text-[2.8rem] leading-tight max-md:text-3xl">
+              I specialize in shaping the future of digital experiences!
             </p>
-            <p className="text-xs w-96 leading-4 max-md:w-72">
-              Emerge Tools is a suite of revolutionary products designed to
-              supercharge apps and the teams that build them
+            <p className="text-sm text-[#cecece] w-96 leading-4 max-md:w-72">
+              Elevate your projects with cutting-edge front-end development
+              expertise.
             </p>
           </div>
           <Button
             className="px-10 pointer-events-auto text-base active:scale-105 transition-transform"
             fontSize="text-base"
           >
-            Get Started
+            Hire me
           </Button>
         </div>
         <div
@@ -82,22 +82,22 @@ const Hero = () => {
             <div className="flex gap-8 ml-8">
               <li className="flex gap-1">
                 <Scaling size={16} strokeWidth={1} />
-                Size Analysis
+                Responsive Web Design
               </li>
               <li className="flex gap-1">
                 <BarChart3 size={16} strokeWidth={1} />
-                Performance Analysis
+                Performance Tuning
               </li>
               <li className="flex gap-1">
                 <GitCompareArrows size={16} strokeWidth={1} />
-                Snapshots
+                Collaborative Development
               </li>
               <li className="flex gap-1">
-                <Rocket size={16} strokeWidth={1} /> Launch Booster
+                <Rocket size={16} strokeWidth={1} /> Accessibility Focus
               </li>
               <li className="flex gap-1">
-                <Skull size={16} strokeWidth={1} />
-                Reaper
+                <LayoutPanelTop size={16} strokeWidth={1} />
+                UI/UX Optimization
               </li>
             </div>
           </ul>
@@ -108,22 +108,22 @@ const Hero = () => {
             <div className="flex gap-8 ml-8">
               <li className="flex gap-1">
                 <Scaling size={16} strokeWidth={1} />
-                Size Analysis
+                Responsive Web Design
               </li>
               <li className="flex gap-1">
                 <BarChart3 size={16} strokeWidth={1} />
-                Performance Analysis
+                Performance Tuning
               </li>
               <li className="flex gap-1">
                 <GitCompareArrows size={16} strokeWidth={1} />
-                Snapshots
+                Collaborative Development
               </li>
               <li className="flex gap-1">
-                <Rocket size={16} strokeWidth={1} /> Launch Booster
+                <Rocket size={16} strokeWidth={1} /> Accessibility Focus
               </li>
               <li className="flex gap-1">
-                <Skull size={16} strokeWidth={1} />
-                Reaper
+                <LayoutPanelTop size={16} strokeWidth={1} />
+                UI/UX Optimization
               </li>
             </div>
           </ul>
