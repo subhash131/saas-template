@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./button.module.css";
+import Link from "next/link";
 
 type ButtonProps = {
   children: React.ReactNode;
@@ -9,14 +10,12 @@ type ButtonProps = {
   fontSize?: string;
 };
 
-const Button = ({
-  children,
-
-  className,
-  fontSize,
-}: ButtonProps) => {
+const Button = ({ children, className, fontSize }: ButtonProps) => {
   return (
-    <div className="relative place-content-center grid ">
+    <Link
+      className="relative place-content-center grid "
+      href="mailto:subhashnayak131@gmail.com"
+    >
       <div
         className={`z-10 absolute left-[2px] top-[2px]  w-[calc(100%-4px)] h-[calc(100%-4px)] grid place-content-center rounded-3xl pointer-events-none text-xs ${fontSize}`}
       >
@@ -24,13 +23,13 @@ const Button = ({
         {children}
       </div>
       <button
-        className={`py-3 rounded-3xl px-6 relative ${styles.button} ${className} ${fontSize} `}
+        className={`py-3 rounded-3xl px-6 relative ${styles.button} ${className} ${fontSize}  `}
       >
         <div className="absolute w-1 h-1 glow left-4"></div>
         <div className="absolute w-1 h-1 glow right-4"></div>
         {children}
       </button>
-    </div>
+    </Link>
   );
 };
 
