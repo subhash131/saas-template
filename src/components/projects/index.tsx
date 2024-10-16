@@ -51,7 +51,7 @@ const projects: Project[] = [
   {
     name: "WhatsApp Clone",
     link: "https://youtu.be/zf1mxFm1PeY",
-    id: "project-3",
+    id: "project-6",
     color: "bg-[#007D41]",
     innerColor: "bg-[#134c30]",
   },
