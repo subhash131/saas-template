@@ -2,14 +2,7 @@
 import React from "react";
 import Button from "@/components/button";
 import { Mail } from "lucide-react";
-
-const items = [
-  "Documentation",
-  "Blog",
-  "Case Studies",
-  "News Letters",
-  "Careers",
-];
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -27,17 +20,17 @@ const Navbar = () => {
       </div>
       <div className="flex gap-10 ">
         <ul className="flex gap-2 text-xs items-center max-md:hidden">
-          {items.map((item, index) => {
-            return (
-              <li
-                className="p-2 pointer-events-auto cursor-wait"
-                key={`nav-${index}`}
-                style={{ cursor: "pointer" }}
-              >
-                {item}
-              </li>
-            );
-          })}
+          <li
+            className="p-2 pointer-events-auto cursor-wait"
+            style={{ cursor: "pointer" }}
+          >
+            <Link
+              href="https://docs.google.com/document/d/1_36f9TZfEVI1OS6v1pF6UbjwokXCGid0DQEIG3Loxis/edit?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </Link>
+          </li>
         </ul>
 
         <Button
