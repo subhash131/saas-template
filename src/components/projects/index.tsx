@@ -59,7 +59,7 @@ const projects: Project[] = [
 
 const Projects = () => {
   const [data] = useState(projects);
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
     const id = (e.target as HTMLDivElement).getAttribute("data-id");

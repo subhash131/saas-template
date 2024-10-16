@@ -1,5 +1,4 @@
 "use client";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,8 +13,9 @@ export default function Carousel({ data }: { data: Project[] }) {
         slidesToShow={3}
         focusOnSelect
         centerMode
-        draggable={true}
+        draggable={false}
         waitForAnimate={true}
+        arrows={false}
       >
         {data.map(({ id, name, color, innerColor, link }, idx) => (
           <Caset
