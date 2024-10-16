@@ -17,6 +17,18 @@ const VideoPlayer = () => {
           controls={true}
           light={false}
           pip={true}
+          config={{
+            youtube: {
+              playerVars: {
+                modestbranding: 1,
+                rel: 0,
+                showinfo: 0,
+                autoplay: 0,
+                cc_load_policy: 1,
+                iv_load_policy: 3,
+              },
+            },
+          }}
         />
       )}
     </div>
