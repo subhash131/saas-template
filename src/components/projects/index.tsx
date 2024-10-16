@@ -53,7 +53,7 @@ const projects: Project[] = [
     link: "https://youtu.be/zf1mxFm1PeY",
     id: "project-3",
     color: "bg-[#007D41]",
-    innerColor: "bg-[#005D41]",
+    innerColor: "bg-[#134c30]",
   },
 ];
 
@@ -72,7 +72,7 @@ const Projects = () => {
 
   return (
     <div
-      className="w-screen h-screen flex bg-black sticky top-0 flex-col"
+      className="w-screen h-screen flex bg-black sticky top-0 flex-col bg-[#]"
       onClick={handleClick}
     >
       <div className="py-10">
