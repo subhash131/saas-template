@@ -70,8 +70,8 @@ const Hero = () => {
           <div
             onClick={() => {
               scrollTo({
-                behavior: "smooth",
                 top: innerHeight,
+                behavior: "smooth",
               });
             }}
           >
