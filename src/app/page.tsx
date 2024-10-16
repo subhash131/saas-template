@@ -1,8 +1,8 @@
 import BentoGrid from "@/components/bento-grid";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/projects";
-import Carousel from "@/components/projects/carousel";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Hero />
       <BentoGrid />
       <Projects />
+      <Footer />
     </div>
   );
 }
