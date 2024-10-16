@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(7, 1fr);
-  grid-column-gap: 012px;
-  grid-row-gap: 012px;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
 }
 
 .div1 {

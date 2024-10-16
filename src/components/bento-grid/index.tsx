@@ -1,7 +1,8 @@
 import React from "react";
 import style from "./bento.module.css";
 import Rocket from "./rocket";
-import { Sparkle } from "lucide-react";
+import { Sparkle, Youtube, YoutubeIcon } from "lucide-react";
+import Image from "next/image";
 
 const BentoGrid = () => {
   return (
@@ -44,15 +45,30 @@ const BentoGrid = () => {
           </div>
         </div>
 
-        <div
-          className={`${style.div4} border rounded-2xl border-light bg-[#111111] hover:scale-95 transition-transform`}
-        >
-          {" "}
+        <div className={`${style.div4} rounded-2xl flex flex-col gap-3`}>
+          <div className="size-full bg-[#e7e7e7] rounded-2xl hover:scale-95 transition-transform " />
+          <div className={`size-full`}></div>
+          <div className="size-full bg-[#e7e7e7] rounded-2xl  hover:scale-95 transition-transform " />
         </div>
         <div
-          className={`${style.div5} border rounded-2xl border-light bg-[#111111] hover:scale-95 transition-transform`}
+          className={`${style.div5} border rounded-2xl border-light bg-[#111111] hover:scale-95 transition-transform flex gap-3 p-1`}
         >
-          {" "}
+          <div className="size-full text-3xl font-extrabold tracking-widest flex items-center justify-center">
+            LIN
+            <br />
+            KS:
+          </div>
+          <div className="size-full bg-gray-100 rounded-2xl flex items-center justify-center">
+            <Image src="/assets/x.png" alt="x" width={40} height={40} />
+          </div>
+          <div className="size-full bg-gray-100 rounded-2xl flex items-center justify-center">
+            <Image
+              src="/assets/youtube.svg"
+              alt="youtube"
+              width={40}
+              height={40}
+            />
+          </div>
         </div>
         <div
           className={`${style.div6} border rounded-2xl border-light bg-[#111111] hover:scale-95 transition-transform`}
