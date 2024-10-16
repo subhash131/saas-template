@@ -47,7 +47,7 @@ body {
 }
 
 .slick-current {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .text-gradient {
@@ -58,6 +58,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-* {
+html {
   scroll-behavior: smooth;
 }

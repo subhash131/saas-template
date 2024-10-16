@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 import React from "react";
 import VideoPlayer from "./video-player";
 
-const VideoController = () => {
+const VideoController = ({ videoUrl }: { videoUrl: string }) => {
   return (
     <div className="w-[60rem] h-[70%] bg-[#171719] overflow-hidden shrink-0 flex items-center justify-between rounded-3xl relative">
       <div className="w-[30%] h-full flex flex-col">
@@ -38,7 +38,7 @@ const VideoController = () => {
         </div>
       </div>
       <div className="size-full p-2">
-        <VideoPlayer />
+        <VideoPlayer videoUrl={videoUrl}/>
       </div>
       <div className="w-[30%] h-full flex flex-col items-center justify-center">
         <div className="size-full flex items-center justify-center -rotate-45">

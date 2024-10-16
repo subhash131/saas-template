@@ -4,9 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Caset from "./caset";
-import styles from "./carousel.module.css";
+import { Project } from ".";
 
-export default function Carousel() {
+export default function Carousel({ data }: { data: Project[] }) {
   return (
     <div className="w-screen px-20 overflow-hidden">
       <Slider
@@ -17,11 +17,9 @@ export default function Carousel() {
         draggable={true}
         waitForAnimate={true}
       >
-        <Caset id="1234" index={1} isActive={false} />
-        <Caset id="1235" index={2} isActive={false} />
-        <Caset id="1236" index={3} isActive={false} />
-        <Caset id="1237" index={3} isActive={false} />
-        <Caset id="1238" index={3} isActive={false} />
+        {data.map(({ id, name }, idx) => (
+          <Caset id={id} index={idx} name={name} />
+        ))}
       </Slider>
     </div>
   );
