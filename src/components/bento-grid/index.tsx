@@ -11,7 +11,7 @@ const BentoGrid = () => {
       className="w-screen h-screen flex items-center justify-center backdrop-blur-lg sticky top-0"
       id="about-me"
     >
-      <div className={`${style.parent} w-[80%] h-[80%] gap-3 lg:w-[90%]`}>
+      <div className={`${style.parent} w-[80%] h-[80%] gap-3 bento`}>
         <div
           className={`${style.div1} border rounded-2xl border-light overflow-hidden hover:scale-95 transition-transform`}
         >
@@ -55,7 +55,7 @@ const BentoGrid = () => {
           <div className="size-full bg-[#e7e7e7] rounded-2xl  hover:scale-95 transition-transform " />
         </div>
         <div
-          className={`${style.div5} border rounded-2xl border-light bg-[#111111] flex gap-3 p-1 items-center justify-between`}
+          className={`${style.div5} border rounded-2xl border-light bg-[#111111] flex gap-3 p-1 items-center justify-between pr-3`}
         >
           <div className="size-full text-3xl font-extrabold tracking-widest flex items-center justify-center">
             LIN
@@ -65,14 +65,14 @@ const BentoGrid = () => {
           <Link
             target="_blank"
             href="https://x.com/subhashnayak131"
-            className="size-[80%] bg-gray-100 rounded-2xl flex items-center justify-center hover:scale-95 transition-transform cursor-pointer"
+            className="w-40 h-16 bg-gray-100 rounded-2xl flex items-center justify-center hover:scale-95 transition-transform cursor-pointer"
           >
             <Image src="/assets/x.png" alt="x" width={30} height={30} />
           </Link>
           <Link
             target="_blank"
             href="https://www.youtube.com/playlist?list=PLhG_qBEikcCrdDwfP-FOqCvq630DPIVBG"
-            className="size-[80%] bg-gray-100 rounded-2xl flex items-center justify-center hover:scale-95 transition-transform"
+            className="w-40 h-16 bg-gray-100 rounded-2xl flex items-center justify-center hover:scale-95 transition-transform"
           >
             <Image
               src="/assets/youtube.svg"
@@ -85,7 +85,9 @@ const BentoGrid = () => {
         <div
           className={`${style.div6} border rounded-2xl border-light bg-[#111111] hover:scale-95 transition-transform px-3 pt-6  flex flex-col gap-4 h-full`}
         >
-          <h4 className="uppercase font-[1000] text-3xl">Recent Projects.</h4>
+          <h4 className="uppercase font-[1000] text-3xl">
+            Recent <br /> Projects.
+          </h4>
           <div>
             <div className="flex justify-between items-center">
               <p className="font font-semibold">Aon + Aetna</p>

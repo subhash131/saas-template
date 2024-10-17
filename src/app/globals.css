@@ -45,6 +45,9 @@ body {
   .caset {
     width: 14rem;
   }
+  .bento {
+    width: 90%;
+  }
 }
 .slick-slide > div {
   margin: 0 10px;
