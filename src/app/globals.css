@@ -38,6 +38,14 @@ body {
   display: none;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .slick-slide > div {
+    margin: 0 5px;
+  }
+  .caset {
+    width: 14rem;
+  }
+}
 .slick-slide > div {
   margin: 0 10px;
 }

@@ -12,7 +12,7 @@ const Caset = ({
     <div
       className={`transition-all h-40 w-72 flex items-center justify-center flex-col ${
         index % 2 ? "rotate-3" : "-rotate-3"
-      }  shrink-0 cursor-pointer mt-10 `}
+      }  shrink-0 cursor-pointer mt-10 caset `}
       data-id={id}
     >
       <div
