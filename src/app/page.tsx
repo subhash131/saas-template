@@ -6,12 +6,18 @@ import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <BentoGrid />
-      <Projects />
-      <Footer />
-    </div>
+    <>
+      <div className="lg:hidden w-screen h-screen flex items-center justify-center">
+        You're using a small device📱. Please access the website on a laptop or
+        desktop.
+      </div>
+      <div className="max-lg:hidden">
+        <Navbar />
+        <Hero />
+        <BentoGrid />
+        <Projects />
+        <Footer />
+      </div>
+    </>
   );
 }

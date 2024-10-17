@@ -11,7 +11,7 @@ const BentoGrid = () => {
       className="w-screen h-screen flex items-center justify-center backdrop-blur-lg sticky top-0"
       id="about-me"
     >
-      <div className={`${style.parent} w-[80%] h-[80%] gap-3`}>
+      <div className={`${style.parent} w-[80%] h-[80%] gap-3 lg:w-[90%]`}>
         <div
           className={`${style.div1} border rounded-2xl border-light overflow-hidden hover:scale-95 transition-transform`}
         >

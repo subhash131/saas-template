@@ -4,7 +4,7 @@ import VideoPlayer from "./video-player";
 
 const VideoController = ({ videoUrl }: { videoUrl: string }) => {
   return (
-    <div className="w-[60rem] h-[70%] bg-[#171719] overflow-hidden shrink-0 flex items-center justify-between rounded-3xl relative">
+    <div className="w-[60rem] h-80 bg-[#171719] overflow-hidden shrink-0 flex items-center justify-between rounded-3xl relative">
       <div className="w-[30%] h-full flex flex-col">
         <div className="size-full flex items-center justify-center relative">
           <div className="absolute p-2 rounded-md bg-[#9D9D9F] h-[60%] flex flex-col justify-between items-center shadow-lg">
@@ -38,7 +38,7 @@ const VideoController = ({ videoUrl }: { videoUrl: string }) => {
         </div>
       </div>
       <div className="size-full p-2">
-        <VideoPlayer videoUrl={videoUrl}/>
+        <VideoPlayer videoUrl={videoUrl} />
       </div>
       <div className="w-[30%] h-full flex flex-col items-center justify-center">
         <div className="size-full flex items-center justify-center -rotate-45">
