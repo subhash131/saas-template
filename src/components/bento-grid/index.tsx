@@ -105,7 +105,7 @@ const BentoGrid = () => {
           <div>
             <div className="flex justify-between items-center">
               <p className="font font-semibold">Bridgestone</p>
-              <p className="text-xs text-gray-400">2021 - 2023</p>
+              <p className="text-xs text-gray-400">2021 - 2022</p>
             </div>
             <p className="text-gray-400 text-xs">SaaS</p>
           </div>
