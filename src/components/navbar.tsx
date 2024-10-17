@@ -3,10 +3,12 @@ import React from "react";
 import Button from "@/components/button";
 import { FileUser, Mail } from "lucide-react";
 import Link from "next/link";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const Navbar = () => {
   return (
     <div className="w-full h-16 flex items-center px-8 justify-between backdrop-blur-sn backdrop-blur-md text-sm fixed top-0 z-50">
+      <SpeedInsights />
       <div className="group py-2 relative px-6 bg-black cursor-pointer select-none">
         <div className="w-2 h-0.5 absolute top-0 right-0 bg-[#616160] group-hover:w-full transition-all" />
         <div className="w-2 h-0.5 absolute bottom-0 left-0 bg-[#616160] group-hover:w-full transition-all" />
