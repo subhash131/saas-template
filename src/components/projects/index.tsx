@@ -75,7 +75,7 @@ const Projects = () => {
       className="w-screen h-screen flex bg-black sticky top-0 flex-col bg-[#]"
       onClick={handleClick}
     >
-      <div className="py-10">
+      <div className="py-10 w-full flex justify-center">
         <Carousel data={data} />
       </div>
 

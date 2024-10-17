@@ -7,7 +7,7 @@ import { Project } from ".";
 
 export default function Carousel({ data }: { data: Project[] }) {
   return (
-    <div className="w-screen px-20 overflow-hidden">
+    <div className="max-w-[120rem] px-20 overflow-hidden">
       <Slider
         speed={1000}
         slidesToShow={3}
