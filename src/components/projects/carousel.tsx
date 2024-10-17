@@ -16,20 +16,6 @@ export default function Carousel({ data }: { data: Project[] }) {
         draggable={false}
         waitForAnimate={true}
         arrows={false}
-        responsive={[
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-            },
-          },
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 3,
-            },
-          },
-        ]}
       >
         {data.map(({ id, name, color, innerColor, link }, idx) => (
           <Caset
