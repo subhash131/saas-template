@@ -26,13 +26,16 @@ const Navbar = () => {
             className="p-2 pointer-events-auto cursor-wait"
             style={{ cursor: "pointer" }}
           >
-            <Link
+            {/* 
+             <Link
               href="https://docs.google.com/document/d/1_36f9TZfEVI1OS6v1pF6UbjwokXCGid0DQEIG3Loxis/edit?usp=sharing"
               target="_blank"
               className="flex gap-2 items-center justify-center"
             >
               <FileUser size={14} /> Resume
             </Link>
+            */}
+           
           </li>
         </ul>
 
