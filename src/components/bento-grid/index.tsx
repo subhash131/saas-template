@@ -15,7 +15,8 @@ const BentoGrid = () => {
         <div
           className={`${style.div1} border rounded-2xl border-light overflow-hidden hover:scale-95 transition-transform`}
         >
-          <Rocket />
+          WORK IN PROGRESS
+{/*           <Rocket /> */}
         </div>
         <div
           className={`${style.div2} border rounded-2xl border-light p-4 bg-[#111111] hover:scale-95 transition-transform flex flex-col gap-4`}
